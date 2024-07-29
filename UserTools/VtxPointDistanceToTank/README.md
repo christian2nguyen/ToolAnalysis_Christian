@@ -1,4 +1,5 @@
 # VtxPointDistanceToTank
+This Tool takes the vertex point find in Simple RECO and calulates  the distance to the tank's inner surface 
 
 VtxPointDistanceToTank
 
@@ -6,7 +7,6 @@ VtxPointDistanceToTank
 
 Describe any data formats VtxPointDistanceToTank creates, destroys, changes, or analyzes. E.G.
 
-**RawLAPPDData** `map<Geometry, vector<Waveform<double>>>`
 * Takes this data from the `ANNIEEvent` store and finds the number of peaks
 
 
@@ -15,6 +15,8 @@ Describe any data formats VtxPointDistanceToTank creates, destroys, changes, or 
 Describe any configuration variables for VtxPointDistanceToTank.
 
 ```
-param1 value1
-param2 value2
+verbosity 0
+isData  0
+HasGenie 0
+MakeSimple 0 
 ```
